@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.Background{
+    position: relative;
+    width: 100%; 
+    height: 1200px;
+    
+    background-color: aliceblue;
+}
+
+header{
+    z-index: 2050;
+    position: fixed;
+    width: calc(100% - 40px);
+    height: 235px;
+    top: 18px;
+    left: 20px;
+    background-color: coral;
+    background: linear-gradient(0deg, aliceblue 0%, coral 100%);
+    border-style: solid;
+    border-color: coral;
+}
+
+.HEADER_Logo{
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    top: 34px;
+    left: 33px;
+    background: url(../image/logo.png);
+    border-style: dashed;
+}
+
+.HEADER_Name_h1{
+    position: fixed;
+    width: calc(100% / 4);
+    height: 75px;
+    top: 34px;
+    left: 456px;
+    border-style: dashed;
+}
+
+.HEADER_Contacts{
+    position: fixed;
+    width: 340px;
+    height: 200px;
+    top: 34px;
+    right: 45px;
+    border-style: dashed;
+}
+
+.horMENU_Background{
+    position: absolute;
+    width: calc(100% - 40px);
+    height: 115px;
+    top: 269px;
+    left: 20px;
+    background-color: coral;
+    border-style: solid;
+    border-color: burlywood;
+}
+
+.horMENU_Button_Main{
+    position: absolute;
+    width: calc(100% / 7);
+    height: 50px;
+    left: 20px;
+    top: 33px;
+    border-style: dashed;
+
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.horMENU_Button_Catalog{
+    position: absolute;
+    width: calc(100% / 7);
+    height: 50px;
+    left: calc((100% - 40px - calc(100% / 7)) / 4);;
+    top: 33px;
+    border-style: dashed;
+
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.horMENU_Button_Docks{
+    position: absolute;
+    width: calc(100% / 7);
+    height: 50px;
+    left: calc((100% - 40px - calc(100% / 7)) / 2);
+    top: 33px;
+    border-style: dashed;
+
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.horMENU_Button_Links{
+    position: absolute;
+    width: calc(100% / 7);
+    height: 50px;
+    left: calc((100% - 40px - calc(100% / 7)) / 4 * 3);
+    top: 33px;
+    border-style: dashed;
+
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.horMENU_Button_Contacts{
+    position: absolute;
+    width: calc(100% / 7);
+    height: 50px;
+    left: calc((100% - 40px - calc(100% / 7)) / 1);
+    top: 33px;
+    border-style: dashed;
+
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.CONTENT_Background{
+    position: absolute;
+    width: calc(100% - 40px);
+    height: 440px;
+    left: 20px;
+    top: 400px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: blue;
+}
+
+.CONTENT_verMENU_Background{
+    position: absolute;
+    width: 400px;
+    height: 375px;
+    top: 50px;
+    left: 28px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.CONTENT_Name_h2{
+    position: absolute;
+    width: calc(100% - 480px);
+    height: 30px;
+    top: 50px;
+    left: 452px;
+    border-style: dashed;
+}
+
+.CONTENT_Text{
+    position: absolute;
+
+    width: calc(100% - 480px);
+    height: 95px;
+    left: 452px;
+    top: 100px;
+    border-style: dashed;
+}
+
+.CONTENT_Tovar{
+    position: absolute;
+    top: 260px;
+    width: calc(100% - 470px);
+    height: 165px;
+    left: 452px;
+    border-style: dashed;
+}
+
+.CONTENT_Tovar_List{
+    float: left;
+    margin: 10px;
+}
+
+.CONTENT_Tovar_List_Tovar{
+    height: 60px;
+    width: 45px;
+    border-style: dashed;
+}
+
+.CONTENT_Tovar_List_Tovar_Image{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 20px;
+    width: 35px;
+    background-color: #fff;
+}
+
+.CONTENT_Tovar_List_Tovar_Name{
+    position: relative;
+    top: 0px;
+    left: 5px;
+    height: 8px;
+    width: 35px;
+    font-size: 8px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.FOOTER_Background{
+    position: absolute;
+    width: calc(100% - 40px);
+    height: 300px;
+    left: 20px;
+    top: 860px;
+    background-color: burlywood;
+    border-style: solid;
+    border-color: coral;
+}
+
+.FOOTER_Contact{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    width: calc(100% / 4);
+    height: 200px;
+    border-style: dashed;
+}
+
+.FOOTER_VK{
+    position: absolute;
+    left: calc(40px + 100% / 4);
+    top: 20px;
+    width: calc(100% / 6);
+    height: 180px;
+    border-style: dashed;
+    border-color: #000;
+}
+
+.FOOTER_VK_Button{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background: url(../image/vk.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.FOOTER_Form{
+    position: absolute;
+    top: 20px;
+    left: calc(100% / 2);
+    width: calc(100% / 2 - 30px);
+    height: 250px;
+    border-style: dashed;
+}
